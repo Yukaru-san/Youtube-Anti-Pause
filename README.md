@@ -2,7 +2,7 @@
 
 A small browser extension to skip Youtube's 'Video paused. Continue watching?' dialogue.
 <br><br>
-<b> Note: I only tested (and released) this in Chromium</b>
+<b>Chrome only</b>
 
 
 # Usage

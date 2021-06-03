@@ -6,9 +6,12 @@
   "permissions": [
     "activeTab"
   ],
+  "host_permissions": [
+	"https://www.youtube.com/*"
+  ],
   "content_scripts": [{
     "js": ["jquery.min.js", "content.js"],
-    "matches": ["https://www.youtube.com/*"],
+    "matches": ["https://www.youtube.com/watch*"],
 	"run_at": "document_end"
   }]
 }

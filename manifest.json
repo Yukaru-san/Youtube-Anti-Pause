@@ -1,16 +1,20 @@
 {
   "name": "Youtube Anti Pause",
   "description": "Blocks Youtube's \"Video Paused. Continue Watching?\" Popup.",
+  "icons": { 
+    "128": "icon/128px.png"
+  },
   "version": "1.0",
   "manifest_version": 3,
   "permissions": [
-    "activeTab"
+    "activeTab",
+	"background"
   ],
   "host_permissions": [
 	"https://www.youtube.com/*"
   ],
   "content_scripts": [{
-    "js": ["jquery.min.js", "content.js"],
+    "js": ["content.js"],
     "matches": ["https://www.youtube.com/watch*"],
 	"run_at": "document_end"
   }]

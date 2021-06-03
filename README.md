@@ -15,5 +15,5 @@ Brave: <br> ```brave://extensions/``` <br>
 Afterwards:
 - Enable Developer Mode in the top right corner
 - Click on 'Load Unpacked'
-- Select the directory containing this repositorie's files
+- Select the directory containing this repository's files
 - Enable Plugin and Grant Access Rights
